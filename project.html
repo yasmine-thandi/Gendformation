@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gendformation</title>
+
+    <link rel="stylesheet" type="text/css" href="project.css" title="style" />
+
+    <!-- add a script tag here to connect it to the js file -->
+    <script src="project_clientside.js"></script>
+    <script src="project_serverside.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="content">
+        <!--Start of div class="content"-->
+        <header>
+        <!--Title-->
+            <h1> Gendformation </h1>
+                <h2> Witness the transformation of awareness regarding gender equity and inclusivity! </h2>
+       
+        </header>
+
+        <nav>
+
+            <!--Start of navigation bar-->
+
+            <p>All About Gender Equity:</p>
+
+            <!-- Ordered/navigation list -->
+            <ul id='list'>
+                <button onclick="box1()" class="button">Who Is Involved?</button>
+                <button onclick="box2()" class="button">What Is It?</button>
+                <button onclick="box3()" class="button">Where and When Does It Occur?</button>
+                <button onclick="box4()" class="button">Why and How?</button>
+            </ul>
+        </nav>
+        <!--End of navigation bar-->
+
+        <!--Associating a class -->
+        <section>
+            <div id="problem" class="problem"> </div>
+        </section>
+
+        <!-- Adding Comment Box -->
+        <section id="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="comment">
+                            <p v-for="items in item" v-text="items"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <textarea type="text" class="input" placeholder="Add a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                        <button v-on:click="addItem()" class='primaryContained float-right' type="submit"> Comment</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Linking server side and adding jquery/ajax libraries -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src="project_serverside.js"></script>
+
+    </div>
+    </div>
+    </div>
+    </section>
+         
+    <!--Add Resources to webpage-->
+    <section>
+        <h3>  Resources: 
+            <br>
+            <br>“7 Ways to Promote Gender Equality.” BCCDC Foundation for Public Health, https://bccdcfoundation.org/7-ways-to-promote-gender-equality/. 
+            Araripe, Evelyn. <br>
+            <br>“10 Ways to Promote Gender Equality in Daily Life.” Believe Earth, 21 Jan. 2019, https://believe.earth/en/10-ways-to-promote-gender-equality-in-daily-life/. <br>
+            <br>“Gender Equality.” United Nations, United Nations, https://www.un.org/en/global-issues/gender-equality#:~:text=a%20human%20right-,Gender%20Equality%20was%20made%20part%20of%20international%20human%20rights%20law,Assembly%20on%2010%20December%201948. <br>
+            <br>“Gender Equity vs. Gender Equality: What's the Distinction?” Pipeline Equity, 8 Oct. 2019, https://www.pipelineequity.com/voices-for-equity/gender-equity-vs-gender-equality/. <br>
+            <br>“Gender Equity.” UNESCO UIS, 22 June 2022, http://uis.unesco.org/en/glossary-term/gender-equity. <br>
+            <br>“Gender Inequality Affects Everyone.” Victorian Government, https://www.vic.gov.au/gender-inequality-affects-everyone. <br>
+            <br>“Inclusion Definition Meaning.” Merriam-Webster, Merriam-Webster, https://www.merriam-webster.com/dictionary/inclusion. <br>
+        </h3>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p> &copy; Author: Yasmine Thandi </p>
+    </footer>
+
+    </div>
+    <!--End of div -->
+</body>
+
+</html>
+

@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    overflow:auto;
+  }
+
+  header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+    background-color:rgb(70,130,180);
+   }
+  
+   header h2{
+    font-size: medium;
+   }
+
+  body {
+      text-align:center;
+  }
+
+  nav button{
+    background-color: white;
+    color: black;
+    float: right;
+    width: 180px;
+    height: 115px;
+  }
+  
+body{
+    font-family: sans-serif; 
+    background-color: rgb(240,248,255);
+    background-image: url("images/image.jpg");
+    margin-bottom: 70px;
+    height: 920px;
+}
+
+.content {
+    background-color: rgb(211,211,211); 
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(240,248,255);
+    background-color: rgb(70,130,180);
+    margin: 2px;
+}
+
+
+section {
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(70,130,180); 
+    background-color: rgb(240,248,255);
+    padding: 15px;
+    margin-top: 11px;
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow: hidden; 
+}
+
+section span{
+    background-color:black;
+    font-style: italic; 
+    color: slategrey; 
+}
+
+
+div.problem{  
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 0px;
+    float: right;
+}
+
+p img{
+    float: right;
+}
+
+footer{
+    text-align: center;
+}
+
+#problem {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 0px;
+    height:280px;
+    text-align:left;
+    color:black;
+    font-family:Luminary, cursive;
+    font-size:15px;
+    padding-left:20px;
+    padding-right:20px;
+    border-style:double;
+    border-color: black;
+}
+
+nav{  
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(70,130,180);
+    background-color:rgb(135,206,250);
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+    overflow: hidden; 
+}
+
+nav ul{  
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(70,130,180);
+    background-color: rgb(240,248,255);
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow: hidden; 
+    width: 196px;
+    height: 500px;
+} 
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.button{
+  display: list-item;    
+ } 
+
+ .container {
+    max-width: 640px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comment {
+    display: block;
+    transition: all 1s;
+}
+.commentClicked {
+    min-height: 0px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.container textarea {
+    width: 100%;
+    border: none;
+    background: #E8E8E8;
+    padding: 5px 10px;
+    height: 50%;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 2px solid white;
+    transition: all 0.5s;
+    margin-top: 15px;
+}
+
+button.primaryContained {
+    background: rgb(70,130,180);
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s all;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+section h3{
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(70,130,180);
+    background-color:rgb(135,206,250);
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+    overflow: hidden; 
+    width: 1220px;
+    height: 250px;
+    font-size: small;
+    text-align: left;
+}
