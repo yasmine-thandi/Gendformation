@@ -1,6 +1,6 @@
 # Gendformation
 
-**Project Idea: A webpage addressing gender equity and inclusion.**
+**Project Idea: A webpage addressing gender equity and inclusion. Java, javascript, CSS, alongisde images will be used.**
 
 **Team Members: Yasmine Thandi**
 
@@ -11,7 +11,7 @@
  **Functional Requirements:**
 
 - Users can view information on gender equity and inclusion in HTML format in the navigation bar
-- Data base contains 5 buttons alongside 5 text boxes of information
+- Data base contains 5 buttons alongside 5 text boxes of information 
 - Users can add their own comments on the website by selecting the option/button to add content, and then type in their feedback/comment (followed by pressing submit to enter their text) anonymously 
 - There will be no need to create an account to access any of the features on the webpage  
 - Security protocols- our team has the ability to remove /erase any unsafe or inappropriate content posted on the website
